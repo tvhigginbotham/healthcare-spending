@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Global healthcare spending</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #d3d3d3;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+			width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			font-size: 2.5em;
+			/* The em unit. 3x the current size */
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.1em;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 0px auto;
+		}
+
+		.max-width-img {
+			width: 100%;
+		}
+
+		/* add custom style class here */
+	</style>
+</head>
+
+<body>
+
+	<div id='map'>
+		<!-- Add your custom HTML here -->
+		<img src="maps/healthcare-spending-1200-px.png" class="max-width-img" alt="Comparative map of global healthcare spending">
+	</div>
+
+	<section>
+			<a href='maps/healthcare-spending-8000px.png' class="linkbox">Large version</a>
+
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
+
+        <h1>About these maps</h1>
+        <p>The United States has the world's most expensive healthcare system. This is true in overall per capita numbers, as seen in the top map above, but more importantly it's true for the country's residents.
+            While most healthcare dollars in other countries come from public sources, like national insurance plans or fully socialized healthcare systems, in the United States the majority of health spending comes from private sources.
+            These expenditures come in the form of insurance premiums, deductibles, copays, and out-of-pocket payments from the uninsured and underinsured. The similarities between the two maps is no coincidence. 
+            The US healthcare system is the world's most expensive precisely because it relies so heavily on private companies to finance care. These companies have administrative overheads that dwarf the overheads of public insurers.
+            In the US, Medicare (a public insurer) has an administrative overhead of under two percent, while the country's private insurers have administrative overheads that generally sit between 12 and 18 percent. </p>
+
+		<!-- Add you information below -->
+		<h2>Authored by: Tim Higginbotham</h2>
+		<p>This map was created using QGIS 3.12 and macOS 10.13.6. Maps are projected using World Miller Cylindrical (EPSG: 54003). <a href="maps/health-spending.geojson" target="blank">Source data</a> downloaded from Our World In Data. </p>
+
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub: <a href="https://github.com/tvhigginbotham">tvhigginbotham</a></li>
+			<li>Follow me on twitter: <a href="https://twitter.com/singlepayertom">@singlepayertom</a></li>
+
+		</ul>
+		<hr>
+        <!-- <h4><a href="https://uky-gis.github.io">UKy GIS and Mapping</a></h4> -->
+        <a href="https://uky-gis.github.io">
+            <img src="https://uky-gis.github.io/graphics/logo-color-400px.png" alt="University of Kentucky Geography"></a> 
+            <a href="https://newmapsplus.as.uky.edu">
+                <img src="https://newmapsplus.as.uky.edu/sites/default/files/NMP%20Logo.png" alt="New Maps Plus"></a>
+	</section>
+
+</body>
+
+</html>
